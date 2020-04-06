@@ -1,6 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main() {
-cout << "Hello, World!" << endl;
-return 0;
+string name;
+cin>>name;
+cout << "Hello World from" <<name<<endl;
+  return 0;
 }
